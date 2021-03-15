@@ -5,7 +5,7 @@ import NavEmpresa from "./NavEmpresa";
 // import Home from "./components/Home";
 // import Contacto from "./components/Contacto";
 // // import Ubicacion from "./components/Ubicacion";
-// import "./App.css";
+import "./App.css";
 
 // import Gallery from "./containers/Gallery";
 // import Portada2 from "./components/image/portada2.jpg";
