@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import NavEmpresa from "./NavEmpresa";
+// import NavEmpresa from "./NavEmpresa";
 // import PiePagina from "./components/PiePagina";
 // import Home from "./components/Home";
 // import Contacto from "./components/Contacto";
@@ -18,7 +18,7 @@ class App extends React.Component {
         <h1> holissss</h1>
           <header>
             <nav class="navbar">
-              <NavEmpresa />
+              {/* <NavEmpresa /> */}
             </nav>
           </header>
           <main>
