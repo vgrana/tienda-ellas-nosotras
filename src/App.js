@@ -1,13 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch  } from "react-router-dom";
+
 import NavEmpresa from "./NavEmpresa";
-// import PiePagina from "./components/PiePagina";
+import PiePagina from "./components/PiePagina";
 // import Home from "./components/Home";
-// import Contacto from "./components/Contacto";
-// // import Ubicacion from "./components/Ubicacion";
+import Contacto from "./components/Contacto";
+// import Ubicacion from "./components/Ubicacion";
 import "./App.css";
 
-// import Gallery from "./containers/Gallery";
+import Gallery from "./containers/Gallery";
 // import Portada2 from "./components/image/portada2.jpg";
 
 class App extends React.Component {
@@ -15,21 +16,22 @@ class App extends React.Component {
     return (
       <div>
         <Router>
-        <h1> holissss</h1>
+       
           <header>
             <nav class="navbar">
-              {/* <NavEmpresa /> */}
+           
+              <NavEmpresa />
             </nav>
           </header>
           <main>
-            {/* <Switch>
+            <Switch>
               <Route exact path="/" component={Gallery} />
               <Route exact path="/contacto" component={Contacto} />
-            </Switch> */}
+            </Switch>
           </main>
-          {/* <footer> */}
-          {/* <PiePagina /> */}
-          {/* </footer> */}
+          <footer> 
+           <PiePagina />
+           </footer>
         </Router>
       </div>
     );
