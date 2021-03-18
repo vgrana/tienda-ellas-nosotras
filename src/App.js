@@ -19,7 +19,7 @@ class App extends React.Component {
        
           <header>
             <nav class="navbar">
-           
+           <h1> A ver si aparece..</h1>
               <NavEmpresa />
             </nav>
           </header>
