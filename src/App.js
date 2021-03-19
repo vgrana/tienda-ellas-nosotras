@@ -8,7 +8,8 @@ import Contacto from "./components/Contacto";
 // import Ubicacion from "./components/Ubicacion";
 import "./App.css";
 
-import Gallery from "./containers/Gallery";
+// import Gallery from "./containers/Gallery";
+import Gallery from "./Gallery";
 // import Portada2 from "./components/image/portada2.jpg";
 
 class App extends React.Component {

@@ -3,7 +3,8 @@ import React from "react";
 
 import face from "./image/face.jpg";
 // import instagram from "./image/instagram.jpg";
-import "../containers/Gallery.css";
+// import "../containers/Gallery.css";
+import "../Gallery.css";
 import Ubicacion from "./Ubicacion";
 class Contacto extends React.Component {
   //mapa a la izquierda, mail, direccion y face y instagram a la derecha
