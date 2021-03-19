@@ -12,6 +12,7 @@ import portada7 from './components/image/portada7.jpg';
 // import portada5 from  'https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/130135130_2631194593858419_7555392943736780225_o.jpg?_nc_cat=109&ccb=2&_nc_sid=a26aad&_nc_ohc=7aChekoad1QAX_jszNb&_nc_ht=scontent.faep8-2.fna&oh=03ad8d6255c519674a191a082a938f86&oe=5FFE6D3F'
 
 import    './Gallery.css';
+import './App1.css'
 
 
  let imgUrls = [
